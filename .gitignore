@@ -1,0 +1,10 @@
+# IDE
+
+
+# Folder
+/assets
+/admin/assets
+
+
+# Files
+.env
