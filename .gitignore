@@ -2,9 +2,13 @@
 
 
 # Folder
-/assets
-/admin/assets
+# /assets
+# /admin/assets
 
 
 # Files
 .env
+
+
+# repository
+# https://github.com/deesynertz/hostel_site.git
