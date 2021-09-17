@@ -1,0 +1,138 @@
+CREATE DATABASE hostel_db;
+
+use hostel_db;
+
+CREATE TABLE roles (
+  id INT NOT NULL AUTO_INCREMENT,
+  role_name VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE programs (
+  id INT NOT NULL AUTO_INCREMENT,
+  program_name VARCHAR(255),
+
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE payment_types (
+  id INT NOT NULL AUTO_INCREMENT,
+  payment_types_name VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE house_types (
+  id INT NOT NULL AUTO_INCREMENT,
+  house_type_name VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE locations (
+  id INT NOT NULL AUTO_INCREMENT,
+  location_name VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id)
+);
+
+
+CREATE TABLE houses (
+  id INT NOT NULL AUTO_INCREMENT,
+  house_name VARCHAR(255) NOT NULL,
+  location INT NOT NULL,
+  conditions VARCHAR(255),
+  house_type INT NOT NULL,
+  amount DECIMAL (12,2) NOT NULL,
+
+  PRIMARY KEY(id),
+  FOREIGN KEY (location) REFERENCES locations(id) ON UPDATE CASCADE ON DELETE CASCADE, 
+  FOREIGN KEY (house_type) REFERENCES house_types(id) ON UPDATE CASCADE ON DELETE CASCADE 
+);
+
+
+CREATE TABLE accounts (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  role INT NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id),
+  FOREIGN KEY (role) REFERENCES roles(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE owners (
+  id INT NOT NULL AUTO_INCREMENT,
+  account INT NOT NULL,
+  contact VARCHAR(255),
+  title VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id, account),
+  FOREIGN KEY (account) REFERENCES accounts(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+-- CREATE TABLE supervisonr (
+--   id INT NOT NULL AUTO_INCREMENT,
+--   account_id INT NOT NULL,
+--   contact VARCHAR(255),
+--   title INT NOT NULL,
+
+--   PRIMARY KEY(id),
+
+--   FOREIGN KEY (role) REFERENCES accounts(account) ON UPDATE CASCADE ON DELETE CASCADE
+-- );
+
+CREATE TABLE students (
+  id INT NOT NULL AUTO_INCREMENT,
+  account INT NOT NULL,
+  contact VARCHAR(255),
+  regno VARCHAR(13) NOT NULL,
+  level ENUM ('1ST', '2ND', '3RD'),
+  program INT NOT NULL,
+
+  PRIMARY KEY(id, account),
+  FOREIGN KEY (account) REFERENCES accounts(id) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (program) REFERENCES programs(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE contracts (
+  id INT NOT NULL AUTO_INCREMENT,
+  owner INT NOT NULL,
+  student INT NOT NULL,
+  house INT NOT NULL,
+  semester ENUM ('1', '2'),
+  duration INT NOT NULL,
+  YOS INT (7) NOT NULL,         -- EG 2018/19, 2019/20
+  includes VARCHAR(900),
+
+  PRIMARY KEY(id),
+  FOREIGN KEY (owner) REFERENCES owners(id) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (student) REFERENCES students(id) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (house) REFERENCES houses(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE payments (
+  id INT NOT NULL AUTO_INCREMENT,
+  contract INT NOT NULL,
+  payment_type INT NOT NULL,
+
+  PRIMARY KEY(id, contract),
+  FOREIGN KEY (contract) REFERENCES contracts(id) ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY (payment_type) REFERENCES payment_types(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE transactions (
+  id INT NOT NULL AUTO_INCREMENT,
+  payment INT NOT NULL,
+  amount DECIMAL (12,2) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  receipt VARCHAR(255) NOT NULL,
+
+  PRIMARY KEY(id),
+  FOREIGN KEY (payment) REFERENCES payments(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
