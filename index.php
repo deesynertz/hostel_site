@@ -1,4 +1,4 @@
-<?php include('public/includes/header.php'); ?>
+<?php require_once('public/includes/header.php'); ?>
 <!-- main header end -->
 
 <!-- Banner start -->

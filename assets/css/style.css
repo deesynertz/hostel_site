@@ -1322,7 +1322,7 @@ a {
 .sub-banner {
     background: rgba(0, 0, 0, 0.04) url(../../media/various/banner-1.jpg) top left repeat;
     background-size: cover;
-    height: 355px;
+    height: 250px;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -1330,8 +1330,8 @@ a {
 }
 
 .sub-banner .breadcrumb-area h1 {
-    margin: 0 0 15px;
-    font-weight: 600;
+    margin: 0 0 10px;
+    font-weight: 500;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -1347,7 +1347,7 @@ a {
     top: 48%;
     right: 0;
     left: 0;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .sub-banner .breadcrumbs li {
@@ -7592,7 +7592,7 @@ body.off-canvas-sidebar-open {
     }
 
     .sub-banner {
-        height: 265px;
+        height: 200px;
     }
 
     .sub-banner .breadcrumb-area {
@@ -8380,7 +8380,7 @@ body.off-canvas-sidebar-open {
     }
 
     .sub-banner {
-        height: 240px;
+        height: 200px;
     }
 
     #search-area-1 {
@@ -8571,7 +8571,7 @@ body.off-canvas-sidebar-open {
     }
 
     .sub-banner {
-        height: 270px;
+        height: 200px;
     }
 
     .breadcrumb-area h1 {

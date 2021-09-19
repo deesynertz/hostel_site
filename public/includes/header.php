@@ -76,19 +76,19 @@
             <div class="navbar-collapse collapse w-100" id="navbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown active">
-                  <a class="nav-link dropdown-toggle" href="index.php">Home</a>
+                  <a class="nav-link dropdown-toggle" href="index">Home</a>
                 </li>
 
                 <li class="nav-item dropdown megamenu-li">
-                  <a class="nav-link dropdown-toggle" href="about.php">About</a>
+                  <a class="nav-link dropdown-toggle" href="about_us">About</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="properties.php">Properties</a>
+                  <a class="nav-link dropdown-toggle" href="properties">Properties</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="contact.php">Contact</a>
+                  <a class="nav-link dropdown-toggle" href="contact_us">Contact</a>
                 </li>
 
                 <li class="nav-item dropdown">
