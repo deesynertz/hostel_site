@@ -7,13 +7,13 @@
 
                     <ul class="contact-info">
                         <li>
-                            Address: 20/F Green Road, Dhanmondi, Dhaka
+                            Address: xxxx, xxx, Tanzania
                         </li>
                         <li>
-                            Email: <a href="mailto:info@themevessel.com">info@themevessel.com</a>
+                            Email: <a href="mailto:info@themevessel.com">info@name.com</a>
                         </li>
                         <li>
-                            Phone: <a href="tel:+0477-85x6-552">+XXXX XXXX XXX</a>
+                            Phone: <a href="tel:+0477-85x6-552">+255 744 004 897</a>
                         </li>
                     </ul>
 
@@ -31,21 +31,17 @@
                     </h4>
                     <ul class="links">
                         <li>
-                            <a href="about.php"><i class="fa fa-angle-right"></i>About us</a>
+                            <a href="#services"><i class="fa fa-angle-right"></i>Services</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-angle-right"></i>Service</a>
+                            <a href="properties"><i class="fa fa-angle-right"></i>Properties Listing</a>
                         </li>
                         <li>
-                            <a href="properties.php"><i class="fa fa-angle-right"></i>Properties Listing</a>
+                            <a href="about_us"><i class="fa fa-angle-right"></i>About us</a>
                         </li>
                         <li>
                             <a href="contact.php"><i class="fa fa-angle-right"></i>Contact Us</a>
                         </li>
-                        <!--
-                        <li>
-                            <a href="#"><i class="fa fa-angle-right"></i>Property Details</a>
-                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -59,7 +55,7 @@
                 <div class="footer-item clearfix">
                     <h4>Subscribe</h4>
                     <div class="Subscribe-box">
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                        <p>Kwako (Page content creator) @Taj</p>
                         <form action="#" method="GET">
                             <p>
                                 <input type="text" class="form-contact" name="email" placeholder="Enter Address">

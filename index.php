@@ -1,5 +1,7 @@
+<!-- main header end -->
 <?php require_once('public/includes/header.php'); ?>
 <!-- main header end -->
+
 
 <!-- Banner start -->
 <div class="banner banner-bg" id="particles-banner-wrapper">
@@ -50,5 +52,17 @@
 </div>
 <!-- banner end -->
 
+
+
+<!-- Hostels properties start -->
+<?php include_once('public/includes/hostels.php');?>
+<!-- Hostels properties End -->
+
+<!-- Rental House start -->
+<?php include_once('public/includes/rental_house.php');?>
+<!-- Rental House end -->
+
+
 <!-- Footer start -->
 <?php include('public/includes/footer.php'); ?>
+<!-- Footer end -->

@@ -53,8 +53,8 @@
                                 <textarea class="form-control" name="message" placeholder="Write message"></textarea>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                            <div class="send-btn">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="send-btn pull-right">
                                 <button type="submit" class="btn btn-color btn-md btn-message">Send Message</button>
                             </div>
                         </div>
