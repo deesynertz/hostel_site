@@ -1,0 +1,13 @@
+<?php 
+
+# SELECT HOSTEL
+
+
+
+# SELECT RENTAL HOUSE
+
+
+
+# OTHERS
+
+?>

@@ -1,3 +1,5 @@
+<?php require_once('config/protect_script.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,6 +90,10 @@
 
                 <li class="nav-item ">
                   <a class="nav-link" href="contact_us">Contact Us</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="auth/login">Login</a>
                 </li>
 
                 <li class="nav-item ">
