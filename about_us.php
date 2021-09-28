@@ -123,17 +123,17 @@
         <div class="agent-2">
           <div class="agent-photo">
             <a href="#">
-              <img src="media/avatar/avatar0.jpg" alt="avatar-7" class="img-fluid">
+              <img src="media/avatar/joshua.jpg" alt="avatar-7" class="img-fluid">
             </a>
           </div>
           <div class="agent-details">
-            <h5><a href="#">Your Name</a></h5>
-            <p>Position (Eg Office Manager)</p>
+            <h5><a href="#">Joshua E Thabiti</a></h5>
+            <p>Web Developer (Full stack )</p>
             <ul class="social-list clearfix">
-              <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/joshua.thabiti/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.twitter.com/ThabitiJoshua" class="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/3b_josh/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/joshua-thabiti-5771aa189/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
