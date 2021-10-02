@@ -466,7 +466,7 @@
           <ul class="nav-main">
             <li class="nav-main-item">
               <a class="nav-main-link active" href="#">
-                <i class="nav-main-link-icon si si-speedometer"></i>
+                <i class="nav-main-link-icon si si-speedometer text-info"></i>
                 <span class="nav-main-link-name">Dashboard</span>
               </a>
             </li>
@@ -652,7 +652,7 @@
             <li class="nav-main-heading">Pages</li>
             <li class="nav-main-item">
               <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu" aria-haspopup="true" aria-expanded="false" href="#">
-                <i class="nav-main-link-icon si si-lock"></i>
+                <i class="nav-main-link-icon si si-lock text-success"></i>
                 <span class="nav-main-link-name">Authentication</span>
               </a>
               <ul class="nav-main-submenu">
@@ -667,6 +667,13 @@
                   </a>
                 </li>
               </ul>
+            </li>
+
+            <li class="nav-main-item">
+              <a class="nav-main-link" href="javascript:void(0)">
+              <i class="nav-main-link-icon fa fa-sign-out-alt text-danger"></i>
+                <span class="nav-main-link-name">Logout</span>
+              </a>
             </li>
           </ul>
         </div>

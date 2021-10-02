@@ -41,7 +41,7 @@
           <div class="p-3 text-center bg-primary-dark rounded-top">
             <img class="img-avatar img-avatar48 img-avatar-thumb" src="../media/avatar/avatar0.jpg" alt="">
             <p class="mt-2 mb-0 text-white font-w500">Adam Smith</p>
-            <p class="mb-0 text-white-50 font-size-sm">Web Developer</p>
+            <p class="mb-0 text-white-50 font-size-sm"><?php echo returnRoleName($_SESSION['role']) ;?></p>
           </div>
           <div class="p-2">
             <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.html">
@@ -59,7 +59,7 @@
             <a class="dropdown-item d-flex align-items-center justify-content-between" href="op_auth_lock.html">
               <span class="font-size-sm font-w500">Lock Account</span>
             </a>
-            <a class="dropdown-item d-flex align-items-center justify-content-between" href="op_auth_signin.html">
+            <a class="dropdown-item d-flex align-items-center justify-content-between" href="../auth/logout">
               <span class="font-size-sm font-w500">Log Out</span>
             </a>
           </div>

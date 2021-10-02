@@ -24,13 +24,16 @@
             </div>
             <!-- END Header -->
 
-            <form class="js-validation" action="login.php" method="POST">
+            <form class="js-validation" action="login" method="POST">
+
+              <?php include_once('../shared/message.php');?>
+
               <div class="py-3">
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg form-control-alt" id="username" name="username" placeholder="Username">
+                  <input type="text" class="form-control form-control-lg form-control-alt" id="username" name="username" placeholder="Username" value="alison@gmail.com">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg form-control-alt" id="password" name="password" placeholder="Password">
+                  <input type="password" class="form-control form-control-lg form-control-alt" id="password" name="password" placeholder="Password" value="12345678">
                 </div>
                 <div class="form-group">
                   <div class="d-md-flex align-items-md-center justify-content-md-between">
@@ -46,7 +49,7 @@
               </div>
               <div class="form-group row justify-content-center mb-0">
                 <div class="col-12">
-                  <button type="submit" class="btn btn-block btn-success">
+                  <button type="submit" class="btn btn-block btn-success" name="login_btn">
                     <i class="fa fa-fw fa-sign-in-alt mr-1"></i> Sign In
                   </button>
                 </div>

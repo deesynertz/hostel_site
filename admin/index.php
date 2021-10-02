@@ -1,3 +1,10 @@
+<?php 
+
+    require_once('scripts/admin_script.php');
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
