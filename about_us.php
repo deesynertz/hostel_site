@@ -104,7 +104,7 @@
         <div class="agent-2">
           <div class="agent-photo">
             <a href="#">
-              <img src="media/avatar/taji.png" alt="avatar-6" class="img-fluid">
+              <img src="media/avatar/tajii.png" alt="avatar-6" class="img-fluid">
             </a>
           </div>
           <div class="agent-details">
