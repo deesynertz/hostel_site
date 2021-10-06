@@ -1,3 +1,5 @@
+<?php require_once('config/protect_script.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,13 +62,12 @@
 <div class="page_loader"></div>
 -->
   <!-- main header start -->
-  <!-- main header start -->
   <header class="main-header sticky-header" id="main-header-2">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-lg navbar-light rounded">
-            <a class="navbar-brand logo navbar-brand d-flex w-50 mr-auto" href="index.php">
+            <a class="navbar-brand logo navbar-brand d-flex w-50 mr-auto" href="index">
               <img src="media/various/black-logo.png" alt="logo">
 
             </a>
@@ -75,23 +76,27 @@
             </button>
             <div class="navbar-collapse collapse w-100" id="navbar">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown active">
-                  <a class="nav-link dropdown-toggle" href="index">Home</a>
+                <li class="nav-item active">
+                  <a class="nav-link" href="index">Home</a>
                 </li>
 
-                <li class="nav-item dropdown megamenu-li">
-                  <a class="nav-link dropdown-toggle" href="about_us">About</a>
+                <li class="nav-item">
+                  <a class="nav-link -toggle" href="properties">Properties</a>
                 </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="properties">Properties</a>
+                <li class="nav-item megamenu-li">
+                  <a class="nav-link" href="about_us">About Us</a>
                 </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="contact_us">Contact</a>
+                <li class="nav-item ">
+                  <a class="nav-link" href="contact_us">Contact Us</a>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item ">
+                  <a class="nav-link" href="auth/login">Login</a>
+                </li>
+
+                <li class="nav-item ">
                   <a href="#full-page-search" class="nav-link">
                     <i class="fa fa-search"></i>
                   </a>
