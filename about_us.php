@@ -162,12 +162,12 @@
         <div class="agent-2">
           <div class="agent-photo">
             <a href="#">
-              <img src="media/avatar/avatar0.jpg" alt="avatar-11" class="img-fluid">
+              <img src="media/avatar/arnold-tumain.jpg" alt="avatar-11" class="img-fluid">
             </a>
           </div>
           <div class="agent-details">
-            <h5><a href="#">Your Name</a></h5>
-            <p>Position (Analyst)</p>
+            <h5><a href="#">Arnold M. Tumain</a></h5>
+            <p>System Analyst</p>
             <ul class="social-list clearfix">
               <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
