@@ -109,7 +109,7 @@
           </div>
           <div class="agent-details">
             <h5><a href="#">Taji Fraser</a></h5>
-            <p>Position (Creative Director)</p>
+            <p>Designer & Creative Director</p>
             <ul class="social-list clearfix">
               <li><a href="https://www.facebook.com/tajifraser" class="facebook"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://www.twitter.com/taji_fraser" class="twitter"><i class="fa fa-twitter"></i></a></li>
