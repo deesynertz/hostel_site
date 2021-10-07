@@ -104,17 +104,17 @@
         <div class="agent-2">
           <div class="agent-photo">
             <a href="#">
-              <img src="media/avatar/avatar0.jpg" alt="avatar-6" class="img-fluid">
+              <img src="media/avatar/tajii.png" alt="avatar-6" class="img-fluid">
             </a>
           </div>
           <div class="agent-details">
-            <h5><a href="#">Your Name</a></h5>
-            <p>Position (Creative Director)</p>
+            <h5><a href="#">Taji Fraser</a></h5>
+            <p>Designer & Creative Director</p>
             <ul class="social-list clearfix">
-              <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/tajifraser" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.twitter.com/taji_fraser" class="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/tajisalimfraser" class="instagram"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://tz.linkedin.com/tajifraser" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
@@ -162,12 +162,12 @@
         <div class="agent-2">
           <div class="agent-photo">
             <a href="#">
-              <img src="media/avatar/avatar0.jpg" alt="avatar-11" class="img-fluid">
+              <img src="media/avatar/arnold-tumain.jpg" alt="avatar-11" class="img-fluid">
             </a>
           </div>
           <div class="agent-details">
-            <h5><a href="#">Your Name</a></h5>
-            <p>Position (Analyst)</p>
+            <h5><a href="#">Arnold M. Tumain</a></h5>
+            <p>System Analyst</p>
             <ul class="social-list clearfix">
               <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
