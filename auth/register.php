@@ -24,7 +24,7 @@
             </div>
             <!-- END Header -->
 
-            <form class="js-validation" action="register.php" method="POST">
+            <form class="js-validation" action="register" method="POST">
               <div class="py-3">
                 <div class="form-group">
                   <input type="text" class="form-control form-control-lg form-control-alt" id="username" name="username" placeholder="Username">
@@ -52,7 +52,7 @@
               </div>
               <div class="form-group row justify-content-center mb-0">
                 <div class="col-12">
-                  <button type="submit" class="btn btn-block btn-primary">
+                  <button type="submit"  class="btn btn-block btn-primary">
                     <i class="fa fa-fw fa-plus mr-1"></i> Sign Up
                   </button>
                 </div>

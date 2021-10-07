@@ -20,11 +20,10 @@
     }
   }
   
-
-
   require_once('../config/connection.php');
 
   # Register
+  
 
   # Login
   if (isset($_POST['login_btn'])) {
