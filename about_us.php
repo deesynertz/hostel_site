@@ -89,7 +89,7 @@
             </a>
           </div>
           <div class="agent-details">
-            <h5><a href="#">Deogratias Alison</a></h5>
+            <h5><a href="#">Alison, Deogratias R.</a></h5>
             <p>Web Developer</p>
             <ul class="social-list clearfix">
               <li><a href="https://www.facebook.com/deogratias-alison" class="facebook"><i class="fa fa-facebook"></i></a></li>
